@@ -6,6 +6,7 @@ public class Reservation {
   private int number_chambre;
   private double prix_reservation;
   private Date d[];
+  private String type_chambre;
  public Reservation(String password, int number_chambre, double prix_reservation, Date[] d) {
 	this.password = password;
 	this.number_chambre = number_chambre;
